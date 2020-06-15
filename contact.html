@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_contact.css">
+   
+</head>
+<body class="category">
+
+  <header class="logo_container">
+    <img class="logo" src="img/LOGO-CFC.png" alt="logo">
+    <img id="id-icon-menu" class="icon-menu" src="img/icon_menu.svg" alt="">
+  </header>
+
+  <menu id="id-menu-container" class="menu-container">
+    <ul id="id-menu" class="menu" >
+      <li class="menu-item" ><a class="menu-link" href="index.html">Home</a></li>
+      <li class="menu-item" ><a class="menu-link" href="#">Graphic Design</a>
+          <ul class="submenu" >
+            <li class="menu-item" ><a class="menu-link" href="typography.html">Typography</a></li>
+            <li class="menu-item" ><a class="menu-link" href="layout.html">Layout</a></li>
+            <li class="menu-item" ><a class="menu-link" href="identity.html">Identity</a></li>
+            <li class="menu-item" ><a class="menu-link" href="design.html">Design</a></li>  
+          </ul>    
+        </li>
+      <li class="menu-item"><a class="menu-link" href="#">Photography</a>
+          <ul class="submenu">
+            <li class="menu-item" ><a class="menu-link" href="dark_room.html">Darkroom</a></li>
+            <li class="menu-item" ><a class="menu-link" href="digital.html">Digital Imaging</a></li>
+            <li class="menu-item" ><a class="menu-link" href="nature.html">Nature</a></li>
+            <li class="menu-item" ><a class="menu-link" href="long.html">Long Exposure</a></li>  
+            <li class="menu-item" ><a class="menu-link" href="studio.html">Studio</a></li>  
+          </ul>    
+      </li>
+      <li class="menu-item" ><a class="menu-link" href="inspiration.html">Inspiration</a></li>                
+      <li class="menu-item" ><a class="menu-link" href="about.html">About</a></li>
+      <li class="menu-item" ><a class="menu-link" href="contact.html">Contact</a></li>
+    </ul>
+  </menu>
+  <section class="contact-section">
+      <aside id="id-aside-container" class="aside-container">
+        <ul id="id-menu-aside" class="menu-aside" >
+          <li id="id-home" class="menu-item" ><a class="menu-link" href="index.html">Home</a></li>
+          <li class="menu-item" ><a class="menu-link" href="#">Graphic Design</a>
+              <ul class="submenu-aside" >
+                <li class="menu-item" ><a class="menu-link" href="typography.html">Typography</a></li>
+                <li class="menu-item" ><a class="menu-link" href="layout.html">Layout</a></li>
+                <li class="menu-item" ><a class="menu-link" href="identity.html">Identity</a></li>
+                <li class="menu-item" ><a class="menu-link" href="design.html">Design</a></li>  
+              </ul>    
+            </li>
+          <li class="menu-item"><a class="menu-link" href="#">Photography</a>
+              <ul  class="submenu-aside">
+                <li class="menu-item" ><a class="menu-link" href="dark_room.html">Darkroom</a></li>
+                <li class="menu-item" ><a class="menu-link" href="digital.html">Digital Imaging</a></li>
+                <li class="menu-item" ><a class="menu-link" href="nature.html">Nature</a></li>
+                <li class="menu-item" ><a class="menu-link" href="long.html">Long Exposure</a></li>  
+                <li class="menu-item" ><a class="menu-link" href="studio.html">Studio</a></li>  
+              </ul>    
+          </li>
+          <li class="menu-item" ><a class="menu-link" href="inspiration.html">Inspiration</a></li>                
+          <li class="menu-item" ><a class="menu-link" href="about.html">About</a></li>
+          <li class="menu-item" ><a class="menu-link" href="contact.html">Contact</a></li>
+        </ul>
+      </aside>
+      <main  id="id-contact-main" class="form_container">
+       
+          <aside class="contact_info">
+            <section class="info_title">
+                <h2>CONTACT<br>INFORMATION</h2>
+            </section>
+            
+        </aside>
+          <form action="send.php" method="post" class="form_contact">
+          <label for="names">Name</label>
+          <input type="text" id="names" name="names" required>
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone">
+          <label for="email">eMail</label>
+          <input type="text" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea name="" id="message"  name="message" required></textarea>
+          <input type="submit" value="Send" id="btnSend">
+          </form>
+     
+    </main>
+  </section>
+  <footer></footer>  
+
+  <script src="scripts.js"></script> 
+  <script src="script_contact.js"></script>
+
+
+</body>
+</html>
